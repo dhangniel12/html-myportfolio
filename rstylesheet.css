@@ -88,7 +88,7 @@ span {
     grid-template-columns: 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
-    padding-left: 230px;
+    padding-left: 50px;
     padding-top: 20px;
   }
   .education-grid {
