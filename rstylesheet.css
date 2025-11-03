@@ -1,0 +1,191 @@
+span {
+    font-style: italic;
+    color: black;
+}
+.exp {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.menu-bar {
+    height: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    position: fixed;
+    background-color: black;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(39, 39, 39);
+    border-bottom-style: solid;
+  }
+    .menu-list {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px;
+  }
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    margin-left: 230px;
+    margin-top: 100px;
+  }
+  .content-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+  .thumbnail {
+    width: 95%;
+  }
+   .thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .content-desc {
+    font-size: 24px;
+    width: 70%;
+    color: rgb(88, 88, 88);;
+  }
+  .experience-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+  .experience-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+   .experience-desc {
+    font-size: 20px;
+    width: 70%;
+    color: rgb(88, 88, 88);
+  }
+  .trabaho {
+    border-bottom: solid 3px gray;
+    font-size: 60px;
+    font-weight: 700;
+  }
+@media (max-width: 1300px) and (min-width: 950px){
+    .menu-list {
+      font-size: 14px;
+      margin-right: 10px;
+    }
+}
+@media (max-width: 1299px) and (min-width: 850px){
+    .menu-list {
+      font-size: 14px;
+      margin-right: 5px;
+    }
+}
+
+ @media (max-width: 849px) {
+    .menu-list {
+      font-size: 16px;
+      margin-right: 5px;
+    }
+ }
+ 
+ @media (max-width: 1499px){
+  .content-grid {
+    grid-template-columns: 1fr 1fr;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .content-desc {
+    font-size: 18px;
+    width: 100%;
+  }
+  .exp {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .experience-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .experience-grid {
+    grid-template-columns: 1fr 1fr;
+    margin-right: 50px;
+    margin-left: 75px;
+  }
+  .experience-desc {
+    font-size: 16px;
+    width: 90%;
+  }
+}
+@media (max-width: 1000px) and (min-width: 800px){
+  .content-grid {
+    grid-template-columns: 1fr;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+ .content-desc {
+    font-size: 18px;
+    width: 100%;
+  }
+  .exp {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .experience-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .experience-grid {
+    grid-template-columns: 1fr;
+    margin-right: 50px;
+    margin-left: 75px;
+  }
+  .experience-desc {
+    font-size: 16px;
+    width: 90%;
+  }
+}
+@media (max-width: 799px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .content-desc {
+    font-size: 18px;
+    width: 100%;
+  }
+  .exp {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .experience-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .experience-grid {
+    grid-template-columns: 1fr;
+    margin-right: 50px;
+    margin-left: 75px;
+  }
+  .experience-desc {
+    font-size: 16px;
+    width: 90%;
+  }
+}
